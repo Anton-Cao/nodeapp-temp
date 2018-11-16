@@ -1,0 +1,17 @@
+extend layout
+
+block content
+    div(class="ui inverted segment") 
+        h4(class="ui white inverted header" style='font-size: 5em;') FEED
+    div(class="ui inverted segment") 
+        br
+        div(class="ui form")
+            div(class="field")
+                textarea(rows="10" id='text')
+        br
+        br
+        button(class="ui inverted white button" id='submit-button') Submit
+        br
+    div(class="ui inverted segment") 
+        h4(class="ui white inverted header" style='font-size: 3em;') Posts
+        ul(id='posts')
